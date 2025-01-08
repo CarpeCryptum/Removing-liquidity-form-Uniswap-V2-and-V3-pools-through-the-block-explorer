@@ -24,7 +24,7 @@ Before removing the liquidity through the UniswapV2Router02 contract, the users 
 With the Uniswap V2 router, there are different functions for the different types of pools. 
 - removeLiquidity (for pools where neither token is the chain's native coin), 
 - removeLiquidityEth (for pools where one of the tokens is the chain's native coin) 
-- removeLiquidtyEthSupportingFeeOnTransferTokens. The example (on Arbitrum chain) will use removeLiquidity function, but the principle is the same and for the rest.
+- removeLiquidtyEthSupportingFeeOnTransferTokens. The example will use "removeLiquidity" function, but the principle is the same and for the rest.
 
 1. Go to the V2 router address on the block explorer and select “Write contract” ([https://etherscan.io/address/0x7a250d5630b4cf539739df2c5dacb4c659f2488d#writeContract](https://etherscan.io/address/0x7a250d5630b4cf539739df2c5dacb4c659f2488d#writeContract))
 

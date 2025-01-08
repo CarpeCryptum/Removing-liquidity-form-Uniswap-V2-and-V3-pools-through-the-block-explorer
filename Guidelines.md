@@ -35,7 +35,7 @@ With the Uniswap V2 router, there are different functions for the different type
 4. For “tokenA” put the token0 address - *0x6B175474E89094C44Da98b954EedeAC495271d0F*
 
 5. For “tokenB” put token1 address - *0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2*
-*Tokens positions can be seen on the pool contract - Read Contract->token0/token1
+Tokens positions can be seen on the pool contract - Read Contract->token0/token1
 
 6. Under “liquidity” put the amount of SLP owned by the user - *205145344937454235* (unit256)
 

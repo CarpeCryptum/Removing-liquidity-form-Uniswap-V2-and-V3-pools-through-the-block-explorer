@@ -1,5 +1,6 @@
 > **_NOTE_**<br>
 > PLEASE KEEP IN MIND THAT ALL VALUES (AMOUNTS, ADDRESSES, ETC..) ARE JUST FOR EXAMPLE. WHEN INTERACTING WITH THE SMART CONTRACTS USERS SHOULD USE THEIR OWN WALLET ADDRESSES, CORRESPONDING CONTRACT ADDRESSES AND AMOUNT VALUES !!!
+> USE AT YOUR OWN RISK!!!
 
 # Removing liquidity from V2 pools through UniswapV2Router02 contract
 Example is on Ethereum mainnet
@@ -61,7 +62,7 @@ Example on Arbitrum
 4. Select "Write contract"/Write as proxy"
 5. Connect to web3
 6. Scroll down to 5.decreaseLiquidity and click on it
-7. In the first field (decreaseLiquidity) put 0, in the second put the params, which are as follow: your token ID, your liquidty amount (the one you coppied from "Read Contract"), the minimum amopunt of the first token (token0) you would accept, the mininimum amount of second token (token1) you would accept, deadline(the date - in unixtimestamp - after which the transaction should fail if have not been processed yet). Keep in mnind that token amounts should be in unit 256, so check the decimals of each token
+7. In the first field (decreaseLiquidity) put 0, in the second put the params, which are as follow: your token ID, your liquidty amount (the one you coppied from "Read Contract"), the minimum amount of the first token (token0) you would accept, the mininimum amount of second token (token1) you would accept, deadline(the date - in unixtimestamp - after which the transaction should fail if have not been processed yet). Keep in mnind that token amounts should be in unit 256, so check the decimals of each token
 ![image](https://github.com/CarpeCryptum/pics/blob/f2334cbb80fbbfd28a5eaa4b5e5d00ee5912c83b/Screenshot%202023-09-16%20at%2017.41.52.png)
 8. Click "write". If the transaction cost shown on user's wallet is too high it means there is a problem, so should not be confiremed. Have to check all the data and if there are no errors may simulate the transaction on Tennderly to see what the problem may be.
 9. After successfull decreaseLiquidity transaction go to 3.collect. In the first field (collect) put 0. In the second field put the following params: your token ID, **YOUR ADDRESS**, max amount of token0 you want to receive, max amount of token1 you want to receieve (max amounts can be any number greater than the number of tokens your postions holds).

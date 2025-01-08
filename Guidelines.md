@@ -65,5 +65,5 @@ Example on Arbitrum
 ![image](https://github.com/CarpeCryptum/pics/blob/f2334cbb80fbbfd28a5eaa4b5e5d00ee5912c83b/Screenshot%202023-09-16%20at%2017.41.52.png)
 8. Click "write". If the transaction cost shown on user's wallet is too high it means there is a problem, so should not be confiremed. Have to check all the data and if there are no errors may simulate the transaction on Tennderly to see what the problem may be.
 9. After successfull decreaseLiquidity transaction go to 3.collect. In the first field (collect) put 0. In the second field put the following params: your token ID, **YOUR ADDRESS**, max amount of token0 you want to receive, max amount of token1 you want to receieve (max amounts can be any nuber greater than the number of tokens your postions holds).
-![image](https://github.com/CarpeCryptum/pics/blob/ad8e46dfd009bc335458fc3cba30f9574629b29b/Screenshot%202023-09-16%20at%2018.00.36.png)
+![image](https://github.com/CarpeCryptum/pics/blob/main/Screenshot%202025-01-08%20at%2020.24.55.png)
 10. Click "write". If the transaction cost shown on user's wallet is too high it means there is a problem, so should not be confiremed. Have to check all the data and if there are no errors may simulate the transaction on Tennderly to see what the problem may be.

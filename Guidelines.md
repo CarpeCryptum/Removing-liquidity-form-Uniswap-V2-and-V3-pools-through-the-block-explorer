@@ -37,7 +37,7 @@ With the Uniswap V2 router, there are different functions for the different type
 5. For “tokenB” put token1 address - *0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2*
 Tokens positions can be seen on the pool contract - Read Contract->token0/token1
 
-6. Under “liquidity” put the amount of SLP owned by the user - *205145344937454235* (unit256)
+6. Under “liquidity” put the amount of LP tokens owned by the user - *205145344937454235* (unit256)
 
 7. In “amountAMin” put the minimum amount of token0 the user agrees to receive - *21500000000000000000* (that’s 21.5 in uint256, as the token - DAI -  is with 18 decimal) *
 
@@ -45,7 +45,7 @@ Tokens positions can be seen on the pool contract - Read Contract->token0/token1
 
 9. For “to (address)” put **YOUR ADDRESS** - *e.g. 0x123abc456def789.....*
 
-10. Under “deadline” put the end time (in unix timestamp) after which the transaction should be rejected if not executed within the set time period, can set timestamp like 5-10 mins in the future - *1678787791*
+10. Under “deadline” put the end time (in unix timestamp) after which the transaction should be rejected if not executed within the set time period, can set timestamp like 5-10 mins in the future - *2678787791*
 
 11. Click “write”
 ![image](https://github.com/CarpeCryptum/pics/blob/main/Screenshot%202025-01-08%20at%2014.56.06.png)
